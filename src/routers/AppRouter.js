@@ -9,7 +9,7 @@ import { DashboardRoutes } from "./DashboardRoutes";
 
 export const AppRouter = () => {
     return (
-    <Router>
+    <Router basename="/..">
             <div>
                 <Switch>
                     <Route exact path='/login' component={LoginScreen}/>
